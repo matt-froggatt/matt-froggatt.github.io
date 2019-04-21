@@ -10,8 +10,11 @@
   </head>
   <body>
 	  <div id="main_content">
-		  {% include navigation.html %}
-		  {{ content }}
+		  <div id="body_wrapper">
+			  {% include navigation.html %}
+			  {{ content }}
+		  </div>
+		  {% include footer.html %}
 	  </div>
   </body>
 </html>
