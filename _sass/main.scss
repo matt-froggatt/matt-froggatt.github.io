@@ -32,6 +32,15 @@ li{
 	padding-bottom: 0.25rem;
 }
 
+hr{
+	height: 1px;
+	color: lightgray;
+	background: lightgray;
+	font-size: 0;
+	border: 0;
+	margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 700px){
 	#main_content{
 		margin: auto;
