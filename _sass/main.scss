@@ -1,6 +1,7 @@
 html{
 	background-color: white;
 	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
 }
 
 *{
@@ -70,8 +71,8 @@ hr{
 }
 
 @media only screen and (min-device-width: 1000px){
-	*{
-		font-size: 1.2rem;
+	html{
+		font-size: 15px;
 	}
 }
 
