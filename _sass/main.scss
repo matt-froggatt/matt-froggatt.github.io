@@ -1,7 +1,7 @@
 html{
 	background-color: white;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 150%;
+	font-size: 30px;
 }
 
 *{
@@ -68,7 +68,10 @@ hr{
 	padding: 0;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
+	html{
+		font-size: 1.25rem;
+	}
 	#main_content{
 		margin: auto;
 		width: 60%;
