@@ -1,6 +1,7 @@
 html{
 	background-color: white;
 	font-family: 'Quicksand', sans-serif;
+	font-size: 150%;
 }
 
 *{
@@ -67,7 +68,7 @@ hr{
 	padding: 0;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 800px){
 	#main_content{
 		margin: auto;
 		width: 60%;
@@ -120,7 +121,7 @@ nav a{
 }
 
 #link_container{
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	transition: transform 0.1s ease;
 	display: flex;
 	flex-direction: row;
@@ -139,8 +140,9 @@ nav a{
 }
 
 #name{
+	padding: 0;
 	margin: 0rem;
-	font-size: 4rem;
+	font-size: 3rem;
 	color: black;
 }
 
