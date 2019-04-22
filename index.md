@@ -7,7 +7,7 @@ title: Home
 Welcome to my website! This is just a test though.
 
 ``` kotlin
-fun thisIsCode(){
+fun main(){
     print("Hello World!")
 }
 ```
