@@ -2,11 +2,11 @@
 layout: default
 title: Home
 ---
-# Hello World!
+# Home
 
-Welcome to my website! This is just a test though.
+Hello! Welcome to my little website! I am a Computer Science and Business double degree student at the University
 
-``` kotlin
+```kotlin
 fun main(){
     print("Hello World!")
 }
