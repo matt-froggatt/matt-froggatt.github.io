@@ -68,10 +68,13 @@ hr{
 	padding: 0;
 }
 
-@media screen and (min-width: 1000px){
+@media only screen and (min-device-width: 1000px){
 	html{
 		font-size: 1.25rem;
 	}
+}
+
+@media only screen and (min-device-width: 1000px) and (min-width: 1000px){
 	#main_content{
 		margin: auto;
 		width: 60%;
@@ -153,13 +156,16 @@ nav a{
 	color: black;
 }
 
-@media screen and (min-width: 1250px){
+@media only screen and (min-width: 1250px){
 	nav{
 		flex-direction: row;
 		padding-top: 1em;
 		padding-bottom: 1em;
 		justify-content: center;
 		align-items: center;
+	}
+	#name{
+		margin-right: 1rem;
 	}
 }
 
