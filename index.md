@@ -2,9 +2,9 @@
 layout: default
 title: Home
 ---
-# Home
+# Welcome!
 
-Hello! Welcome to my little website! I am a Computer Science and Business double degree student at the University
+Welcome to my website! This is just a test right now.
 
 ```kotlin
 fun main(){
