@@ -3,13 +3,38 @@
 	border-width: 1px;
 	border-color: black;
 	border-radius: 10px;
-	margin-bottom: 1rem;
+	margin: 0px;
 }
 
 .card *{
 	margin-bottom: 1rem;
 	margin-left: 1rem;
-	margin-right: 1rem
+	margin-right: 1rem;
+}
+
+.card_container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.card_link{
+	border-radius: 10px;
+	text-decoration: none;
+	transition: all 0.25s ease;
+}
+
+.card_link:hover{
+	transform: scale(1.01) translate(0px, -5px);
+	box-shadow: 0px 10px 15px -10px rgba(0,0,0,0.69);
+	transition: all 0.25s ease;
+}
+
+.card_link:active{
+	transform: scale(0.99) translate(0px, 5px);
+	box-shadow: none;
+	transition: all 0.25s ease;
 }
 
 .card_image{
