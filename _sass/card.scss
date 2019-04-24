@@ -29,7 +29,7 @@
 	border-radius: 10px;
 	transform: scale(1) translate(0, 0);
 	text-decoration: none;
-	transition: transform 0.25s ease, box-shadow 0.25s ease;
+	transition: transform 0.25s ease, box-shadow 0.25s ease, width 0.25s ease;
 }
 
 .card_link:hover{
@@ -62,11 +62,7 @@
 }
 
 @media only screen and (min-width: 700px) and (min-device-width: 500px){
-	 .card_link{
-		width: 20rem;
-	}
-
-	.card{
+	 .card, .card_link{
 		width: 20rem;
 		transition: width 0.25s ease;
 	}
