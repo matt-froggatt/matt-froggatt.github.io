@@ -4,6 +4,12 @@
             image: 
             name: Canadian Translator
             descript: Translates Canadian documents to American english. Makes sure those pesky "U"s don't cause any errors in your code.
+- lang: Kotlin
+  projects:
+          - link: https://github.com/matt-froggatt/math-notepad
+            image:
+            name: Text Editor
+            descript: A basic text editor made using JavaFX.
 - lang: Java
   projects:
           - link: https://github.com/matt-froggatt/fractals
