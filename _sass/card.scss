@@ -1,9 +1,11 @@
 .card{
+	width: 100%; 
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
 	border-radius: 10px;
 	margin: 0px;
+	padding: 0px;
 }
 
 .card *{
@@ -13,14 +15,18 @@
 }
 
 .card_container{
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	margin-bottom: 2rem;
 }
 
 .card_link{
+	width: 100%;
 	border-radius: 10px;
+	transform: scale(1) translate(0, 0);
 	text-decoration: none;
 	transition: all 0.25s ease;
 }
@@ -38,7 +44,10 @@
 }
 
 .card_image{
+	display: block;
 	margin: 0;
+	margin-bottom: 1rem;
+	padding: 0;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	width: 100%;
@@ -51,8 +60,8 @@
 	border-bottom-color: lightgray;
 }
 
-@media only screen and (min-width: 700px){
-	.card{
+@media only screen and (min-width: 700px) and (min-device-width: 500px){
+	.card, .card_link{
 		width: 20rem;
 	}
 }

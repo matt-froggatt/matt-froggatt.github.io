@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% for item in site.data.projects %}
+	<h1>{{ item.lang }}</h1>
+	<div class="card_container">
+		{% for project in item.projects %}
+			{% include card.html link=project.link image=project.image title=project.name content=project.descript %}
+		{% endfor %}
+	</div>
+{% endfor %}
