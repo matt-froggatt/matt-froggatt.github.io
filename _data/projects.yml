@@ -1,8 +1,13 @@
-- lang: Kotlin
-  projects:
-          - link: /
-            image: 
-            name: Thing
-            descript: Stuff
 - lang: Python
   projects:
+          - link: https://github.com/matt-froggatt/canadian-to-american
+            image: 
+            name: Canadian Translator
+            descript: Translates Canadian documents to American english. Makes sure those pesky "U"s don't cause any errors in your code.
+- lang: Java
+  projects:
+          - link: https://github.com/matt-froggatt/fractals
+            image: /assets/images/fractal.png
+            name: Fractal Tree Generator
+            descript: Draws fractal trees in a window.
+

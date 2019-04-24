@@ -4,7 +4,7 @@ title: Home
 ---
 # Welcome!
 
-Welcome to my website! This is just a test right now.
+Welcome to my website!
 
 ```kotlin
 fun main(){
