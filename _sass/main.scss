@@ -113,7 +113,6 @@ nav{
 	justify-content: center;
 	align-items: center;
 	padding: 0.5rem;
-	max-height: 15vh;
 }
 
 nav *{
@@ -136,7 +135,7 @@ nav a{
 }
 
 #link_container p{
-	font-size: 4vh;
+	font-size: 3.5rem;
 }
 
 #link_container a:hover p{
@@ -153,7 +152,7 @@ nav a{
 #name{
 	padding: 0;
 	margin: 0;
-	font-size: 8vh;
+	font-size: 5.5rem;
 	color: black;
 }
 
@@ -161,13 +160,13 @@ nav a{
 	color: black;
 }
 
-@media only screen and (min-device-height: 800px){
+@media only screen and (orientation: landscape){
 	#name{
-		font-size: 5.5rem;
+		font-size: 2rem;
 	}
-	
+
 	#link_container p{
-		font-size: 3rem;
+		font-size: 1.5rem;
 	}
 }
 
