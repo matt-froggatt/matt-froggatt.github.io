@@ -7,7 +7,7 @@
 - lang: Kotlin
   projects:
           - link: https://github.com/matt-froggatt/math-notepad
-            image:
+            image: /assets/images/text-editor.png
             name: Text Editor
             descript: A basic text editor made using JavaFX.
 - lang: Java
